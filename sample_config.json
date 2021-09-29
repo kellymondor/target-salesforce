@@ -1,5 +1,19 @@
 {
-  "username": "my_username",
-  "password": "my_password",
-  "start_date": "2017-01-01T00:00:00Z"
-}
+    "username": "USERNAME",
+    "password": "PASSWORD",
+    "security_token": "SECURITY_TOKEN",
+    "domain": "login",
+    "mapping": {
+        "accounts": {
+            "salesforce_object": "account",
+            "fields": {
+                "sfdc_account_id": "Id", 
+                "total_users": "Number_of_Studio_users__c",
+                "total_subgraphs": "Number_of_Subgraphs__c",
+                "total_graphs": "Number_of_Studio_graphs__c",
+                "requests_last_30_days": "Number_of_Requests_in_the_last_30_days__c"
+              }
+          }
+      }   
+  }
+  

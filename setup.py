@@ -11,6 +11,7 @@ setup(
     py_modules=["target_salesforce"],
     install_requires=[
         "singer-python>=5.0.12",
+        "simple-salesforce==1.11.3"
     ],
     entry_points="""
     [console_scripts]
